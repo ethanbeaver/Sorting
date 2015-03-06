@@ -4,12 +4,7 @@
 
 using namespace std;
 
-/*void marble_sort(string myArray[]);
-{
-
-}*/
-
-void readFile(string myArray[])
+void readFile(char myArray[])
 {
     ifstream file ("marbles.txt");
     if(file.is_open())
@@ -24,21 +19,35 @@ void readFile(string myArray[])
     }
 }
 
+void marble_sort(char myArray[])
+{
+    int i, j, n;
+    i = j = 0;
+    n = 1999;
+
+    while (j <= n)
+    {
+        if
+    }
+}
+
 int main()
 {
 
-    string myArray[2000];
+    char myArray[2000];
     readFile(myArray);
 
     /*for(int j = 0; j<2000 ; j++)
     cout << myArray[j];*/
 
+    marble_sort(myArray);
+
     clock_t t1, t2;
     // Input and initializations occur here before the clock starts.
     t1 = clock();
-    for(long int i=1; i <= 1000000; i++) // Loopp only if using clock()
+    for(long int i=1; i <= 1000000; i++) // Loop only if using clock()
     {
-        marble_sort(myArray)
+
     }
     t2 = clock();
     // Output for verification occurs here after the clock stops.
