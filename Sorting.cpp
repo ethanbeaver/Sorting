@@ -4,9 +4,9 @@
 
 using namespace std;
 
-/*void marble_sort(myArray[]);
+/*void marble_sort(string myArray[]);
 {
-  
+
 }*/
 
 void readFile(string myArray[])
