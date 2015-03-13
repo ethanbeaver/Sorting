@@ -58,6 +58,6 @@ int main()
     t2 = clock();
     // Output for verification occurs here after the clock stops.
     cout << myArray;
-    cout<< "Time difference is " << (t2-t1)/CLOCKS_PER_SEC << " microseconds";
+    cout<< "Time difference is " << (t2-t1)/CLK_TCK << " microseconds";
     return 0;
 }
